@@ -252,3 +252,5 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);overflo
   .gallery-cta{flex-direction:column;text-align:center}
   .stats-container{flex-direction:column;gap:14px}
 }
+.feat-product-img{width:100%;height:220px;object-fit:cover;display:block;transition:transform 0.4s ease}
+.feat-card:hover .feat-product-img{transform:scale(1.04)}
