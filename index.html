@@ -322,6 +322,45 @@
   <span class="wa-tooltip">Order Now!</span>
 </a>
 
+<!-- ===== AI PRODUCT RECOMMENDER ===== -->
+<div class="bot-launcher" id="botLauncher" onclick="toggleBot()">
+  <div class="bot-launcher-icon">🤖</div>
+  <div class="bot-launcher-text">
+    <span class="bot-launcher-title">AI Recommender</span>
+    <span class="bot-launcher-sub">Find your perfect supplement!</span>
+  </div>
+  <div class="bot-launcher-close" id="botLauncherX" onclick="closeBotPulse(event)">×</div>
+</div>
+
+<div class="bot-panel" id="botPanel">
+  <!-- Header -->
+  <div class="bot-header">
+    <div class="bot-header-left">
+      <div class="bot-avatar">🤖</div>
+      <div>
+        <div class="bot-name">SG Supplement Advisor</div>
+        <div class="bot-status"><span class="bot-dot"></span> AI Powered</div>
+      </div>
+    </div>
+    <button class="bot-close-btn" onclick="toggleBot()">✕</button>
+  </div>
+
+  <!-- Chat Body -->
+  <div class="bot-body" id="botBody">
+    <!-- Messages appear here -->
+  </div>
+
+  <!-- Options Area -->
+  <div class="bot-options" id="botOptions"></div>
+
+  <!-- Restart -->
+  <div class="bot-footer">
+    <button class="bot-restart-btn" onclick="restartBot()">🔄 Start Over</button>
+    <a class="bot-wa-btn" href="https://wa.me/917568521210?text=Hi! I need help choosing a supplement." target="_blank"><i class="fab fa-whatsapp"></i> Ask Expert</a>
+  </div>
+</div>
+
 <script src="js/main.js"></script>
+<script src="js/bot.js"></script>
 </body>
 </html>
