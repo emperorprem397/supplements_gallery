@@ -11,7 +11,7 @@
     #sg-bot-fab {
       position: fixed !important;
       bottom: 100px !important;
-      left: 24px !important;
+      right: 24px !important;
       z-index: 2147483640 !important;
       display: flex !important;
       align-items: center !important;
@@ -38,7 +38,7 @@
     #sg-bot-panel {
       position: fixed !important;
       bottom: 100px !important;
-      left: 24px !important;
+      right: 24px !important;
       z-index: 2147483641 !important;
       width: 340px !important;
       max-height: 570px !important;
@@ -223,8 +223,8 @@
     @keyframes sgBlink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
     @media(max-width:420px){
-      #sg-bot-panel { width: calc(100vw - 24px) !important; left: 12px !important; }
-      #sg-bot-fab { left: 12px !important; }
+      #sg-bot-panel { width: calc(100vw - 24px) !important; right: 12px !important; }
+      #sg-bot-fab { right: 12px !important; }
     }
   `;
 
